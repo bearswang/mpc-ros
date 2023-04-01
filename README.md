@@ -41,8 +41,8 @@ rosrun mpc_ros mpc_Town04_launch.py
 
 [Ruihua Han](https://github.com/hanruihua)
 
-[Guoliang Li](https://github.com/ReusLI1998)
-
 [Shuai Wang](https://github.com/bearswang)
+
+[Guoliang Li](https://github.com/ReusLI1998)
 
 
