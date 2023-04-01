@@ -6,7 +6,7 @@ BY Ruihua Han, Guoliang Li, and Shuai Wang
 ```bash
 mkdir -p ~/ws/src
 cd ~/ws/src
-git clone https://github.com/bearswang/carla-ros-mpc.git
+git clone https://github.com/bearswang/ros-mpc.git
 cd .. && catkin_make
 ```
 
