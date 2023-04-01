@@ -10,18 +10,18 @@ git clone https://github.com/bearswang/mpc-ros.git
 cd .. && catkin_make
 ```
 
-# Use Example: Carla-ROS-MPC
+## Use Example: Carla-ROS-MPC
 
 Use the MPC algorithm to navigate an autonomous vehicle in the Carla Town04 map
 
-# Start Carla server
+## Start Carla server
 ```bash
 cd $CARLA_ROOT
 ./CarlaUE4.sh
 ```
 CARLA_ROOT is the root folder for Carla simulation
 
-# Spawn agents and start CARLA-ROS-Bridge
+## Spawn agents and start CARLA-ROS-Bridge
 ```bash
 cd $CARLA_ROS_BRIDGE
 source devel/setup.bash
@@ -29,7 +29,7 @@ roslaunch carla_ros_bridge run_car_sim_Town04.launch
 ```
 CARLA_ROS_BRIDGE is the root folder for ros-bridge
 
-# Run MPC algorithm 
+## Run MPC algorithm 
 ```bash
 source devel/setup.bash
 rosrun mpc_ros mpc_Town04_launch.py
