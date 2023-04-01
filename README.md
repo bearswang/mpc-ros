@@ -35,6 +35,7 @@ rosrun mpc_ros mpc_Town04_launch.py
 
 * [Carla](https://github.com/carla-simulator)
 * [Carla-ROS-Bridge](https://github.com/carla-simulator/ros-bridge)
+* [RDA](https://github.com/carla-simulator/ros-bridge](https://github.com/hanruihua/RDA_planner)
 
 ### Authors
 
