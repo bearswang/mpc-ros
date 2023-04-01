@@ -35,6 +35,24 @@ source devel/setup.bash
 rosrun mpc_ros mpc_Town04_launch.py
 ```
 
+# Citation
+
+CarlaFLCAV can reproduce results in the following papers:
+
+```tex
+@article{CarlaMPC,
+  title={Collision Avoidance Predictive Motion Planning Based on Integrated Perception and V2V Communication},
+  author={Shiyao Zhang and Shuai Wang and Shuai Yu and James J. Q. Yu and Miaowen Wen},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2022},
+  volume={23},
+  number={7},
+  pages={9640-9653},
+  publisher={IEEE}
+}
+```
+
+
 ## Acknowledgement
 
 * [Carla](https://github.com/carla-simulator)
