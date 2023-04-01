@@ -1,5 +1,6 @@
 # MPC-ROS
 A Python ROS package for model predictive control (MPC) of an autonomous vehicle
+
 BY Ruihua Han, Guoliang Li, and Shuai Wang
 
 # Install MPC-ROS:
