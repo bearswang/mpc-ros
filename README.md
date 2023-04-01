@@ -1,8 +1,6 @@
 # MPC-ROS
 A Python ROS package for model predictive control (MPC) of an autonomous vehicle
 
-BY Ruihua Han, Guoliang Li, and Shuai Wang
-
 # Install MPC-ROS:
 
 ```bash
@@ -32,3 +30,18 @@ roslaunch carla_ros_bridge run_car_sim_Town04.launch
 source devel/setup.bash
 rosrun mpc_ros mpc_Town04_launch.py
 ```
+
+## Acknowledgement
+
+* [Carla](https://github.com/carla-simulator)
+* [Carla-ROS-Bridge](https://github.com/carla-simulator/ros-bridge)
+
+### Authors
+
+[Shuai Wang](https://github.com/bearswang)
+
+[Ruihua Han](https://github.com/hanruihua)
+
+[Guoliang Li](https://github.com/ReusLI1998)
+
+
