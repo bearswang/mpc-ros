@@ -1,4 +1,4 @@
-# CARLA-ROS-MPC
+# Carla-ROS-MPC
 BY Ruihua Han, Guoliang Li, and Shuai Wang
 
 # Install Carla-ROS-MPC:
