@@ -11,13 +11,19 @@ cd .. && catkin_make
 ```
 
 # Start CARLA server
+```bash
 cd $CARLA_ROOT
 ./CarlaUE4.sh
+```
 
 # Spawn agents and start CARLA-ROS-Bridge 
+```bash
 source devel/setup.bash
 roslaunch carla_ros_bridge run_car_sim_Town04.launch 
+```
 
 # Run MPC algorithm 
+```bash
 source devel/setup.bash
 rosrun mpc_ros mpc_Town04_launch.py
+```
