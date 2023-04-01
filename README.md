@@ -21,6 +21,7 @@ cd $CARLA_ROOT
 
 # Spawn agents and start CARLA-ROS-Bridge 
 ```bash
+cd $CARLA_ROS_BRIDGE
 source devel/setup.bash
 roslaunch carla_ros_bridge run_car_sim_Town04.launch 
 ```
