@@ -1,0 +1,5 @@
+# MPC in Carla Town04
+# ROS Topics
+odom_topic: "/carla/agent_0/odometry" # input topic
+ctl_topic: "/carla/agent_0/vehicle_control_cmd" # input topic
+
