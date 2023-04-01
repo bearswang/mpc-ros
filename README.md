@@ -1,7 +1,7 @@
 # MPC-ROS
 A python ROS package for model predictive control (MPC) of an autonomous vehicle
 
-# Install MPC-ROS:
+## Install MPC-ROS:
 
 ```bash
 mkdir -p ~/ws/src
@@ -14,18 +14,20 @@ cd .. && catkin_make
 
 Use the MPC algorithm to navigate an autonomous vehicle in the Carla Town04 map
 
-# Start Carla server (CARLA_ROOT is the root folder for Carla simulation)
+# Start Carla server
 ```bash
 cd $CARLA_ROOT
 ./CarlaUE4.sh
 ```
+CARLA_ROOT is the root folder for Carla simulation
 
-# Spawn agents and start CARLA-ROS-Bridge (CARLA_ROS_BRIDGE is the root folder for ros-bridge)
+# Spawn agents and start CARLA-ROS-Bridge
 ```bash
 cd $CARLA_ROS_BRIDGE
 source devel/setup.bash
 roslaunch carla_ros_bridge run_car_sim_Town04.launch 
 ```
+CARLA_ROS_BRIDGE is the root folder for ros-bridge
 
 # Run MPC algorithm 
 ```bash
