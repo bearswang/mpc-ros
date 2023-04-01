@@ -1,14 +1,16 @@
-# Carla-ROS-MPC
+# MPC-ROS
 BY Ruihua Han, Guoliang Li, and Shuai Wang
 
-# Install Carla-ROS-MPC:
+# Install MPC-ROS:
 
 ```bash
 mkdir -p ~/ws/src
 cd ~/ws/src
-git clone https://github.com/bearswang/ros-mpc.git
+git clone https://github.com/bearswang/mpc-ros.git
 cd .. && catkin_make
 ```
+
+# Use Example: Carla-ROS-MPC
 
 # Start CARLA server
 ```bash
