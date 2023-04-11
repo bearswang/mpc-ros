@@ -1,0 +1,20 @@
+receding: 10
+max_speed: 8
+ref_speed: 4
+max_acce: 1
+max_acce_steer: 0.02
+sample_time: 0.2
+max_steer: 0.5
+wheelbase: 2.87
+shape: [4.69, 1.85, 2.87, 1.75] # [length, width, wheelbase, wheelbase_w]
+cs: [1, 1, 1]
+cu: 1
+cst: [1, 1, 1]
+cut: 1
+start_position: [120.0, 170.0, 0]
+goal1_position: [190.0, 170.0, 0]
+goal2_position: [254, 170.0, 0]
+goal3_position: [254, 123.0, -1.5707963267948966]
+goal4_position: [240, 120.0, 2.967059677777778]
+goal5_position: [225, 120.0, 2.268927988888889]
+finish_position: [200, 150.0, 1.5707963267948966]
