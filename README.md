@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/107024891/231101881-44654b2d-cf1e-4530
 cd $CARLA_ROOT
 ./CarlaUE4.sh
 ```
-CARLA_ROOT is the root folder for Carla simulation
+CARLA_ROOT is the root folder for [Carla](https://github.com/carla-simulator)
 
 ## Spawn agents and start CARLA-ROS-Bridge
 ```bash
@@ -29,7 +29,7 @@ cd $CARLA_ROS_BRIDGE
 source devel/setup.bash
 roslaunch carla_ros_bridge run_car_sim_Town04.launch 
 ```
-CARLA_ROS_BRIDGE is the root folder for ros-bridge
+CARLA_ROS_BRIDGE is the root folder for [Carla-ROS-Bridge](https://github.com/carla-simulator/ros-bridge)
 
 ## Run MPC algorithm 
 ```bash
