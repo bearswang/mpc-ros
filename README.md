@@ -55,7 +55,7 @@ roslaunch mpc_ros mpc_Town04.launch
 
 # Citation
 
-CarlaFLCAV can reproduce results in the following papers:
+MPC-ROS can reproduce the experimental results in the following paper:
 
 ```tex
 @article{CarlaMPC,
