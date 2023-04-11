@@ -10,9 +10,18 @@ git clone https://github.com/bearswang/mpc-ros.git
 cd .. && catkin_make
 ```
 
+
 ## Use Example: Carla-ROS-MPC
 
 Use the MPC algorithm to navigate an autonomous vehicle in the Carla Town04 map
+
+### Test Environment
+
+- Ubuntu 20.04
+- Python 3.8
+- CARLA 0.9.13
+- Carla-ROS-Bridge
+- CUDA 11.3 (Nvidia Driver 470)
 
 https://user-images.githubusercontent.com/107024891/231101881-44654b2d-cf1e-4530-8aec-bc2e5b88f802.mp4
 
