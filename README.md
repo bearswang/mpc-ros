@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/107024891/231101881-44654b2d-cf1e-4530
 cd $CARLA_ROOT
 ./CarlaUE4.sh
 ```
-CARLA_ROOT is the root folder for [Carla](https://github.com/carla-simulator)
+CARLA_ROOT is the root folder for [Carla](https://github.com/carla-simulator/carla)
 
 ## Spawn agents and start CARLA-ROS-Bridge
 ```bash
@@ -64,7 +64,7 @@ CarlaFLCAV can reproduce results in the following papers:
 
 ## Acknowledgement
 
-* [Carla](https://github.com/carla-simulator)
+* [Carla](https://github.com/carla-simulator/carla)
 * [Carla-ROS-Bridge](https://github.com/carla-simulator/ros-bridge)
 * [RDA](https://github.com/hanruihua/RDA_planner)
 
