@@ -14,6 +14,8 @@ cd .. && catkin_make
 
 Use the MPC algorithm to navigate an autonomous vehicle in the Carla Town04 map
 
+https://user-images.githubusercontent.com/107024891/231101881-44654b2d-cf1e-4530-8aec-bc2e5b88f802.mp4
+
 ## Start Carla server
 ```bash
 cd $CARLA_ROOT
