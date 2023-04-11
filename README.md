@@ -35,6 +35,13 @@ source devel/setup.bash
 rosrun mpc_ros mpc_Town04_launch.py
 ```
 
+## Run MPC algorithm with configuration
+
+```
+roslaunch mpc_ros mpc_Town04.launch
+```
+
+
 # Citation
 
 CarlaFLCAV can reproduce results in the following papers:

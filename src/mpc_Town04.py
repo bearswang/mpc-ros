@@ -61,11 +61,11 @@ class mpc_core:
 
         # goals
         start_position = rospy.get_param('start_position', [120.0, 170.0, 0]) 
-        goal1_position = rospy.get_param('goal_position', [190.0, 170.0, 0])
-        goal2_position = rospy.get_param('goal_position', [254, 170.0, 0])
-        goal3_position = rospy.get_param('goal_position', [254, 123.0, -pi/2]) 
-        goal4_position = rospy.get_param('finish_position', [240, 120.0, 170/90*pi/2]) 
-        goal5_position = rospy.get_param('finish_position', [225, 120.0, 130/90*pi/2])
+        goal1_position = rospy.get_param('goal1_position', [190.0, 170.0, 0])
+        goal2_position = rospy.get_param('goal2_position', [254, 170.0, 0])
+        goal3_position = rospy.get_param('goal3_position', [254, 123.0, -pi/2]) 
+        goal4_position = rospy.get_param('goal4_position', [240, 120.0, 170/90*pi/2]) 
+        goal5_position = rospy.get_param('goal5_position', [225, 120.0, 130/90*pi/2])
         finish_position = rospy.get_param('finish_position', [200, 150.0, pi/2]) 
         
         self.name = 'Town04'

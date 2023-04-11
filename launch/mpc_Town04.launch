@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find mpc_ros)/configure/config.yaml" command="load" />
+    <node pkg="mpc_ros" type="mpc_Town04_launch.py" name="mpc_Town04_launch"/>
+</launch>
