@@ -11,11 +11,14 @@ cd .. && catkin_make
 ```
 
 
-## Use Example: Carla-ROS-MPC
+## Example: Carla-ROS-MPC
 
 Use the MPC algorithm to navigate an autonomous vehicle in the Carla Town04 map
 
-### Test Environment
+https://user-images.githubusercontent.com/107024891/231101881-44654b2d-cf1e-4530-8aec-bc2e5b88f802.mp4
+
+
+## Test Environment
 
 - Ubuntu 20.04
 - Python 3.8
@@ -23,7 +26,18 @@ Use the MPC algorithm to navigate an autonomous vehicle in the Carla Town04 map
 - Carla-ROS-Bridge
 - CUDA 11.3 (Nvidia Driver 470)
 
-https://user-images.githubusercontent.com/107024891/231101881-44654b2d-cf1e-4530-8aec-bc2e5b88f802.mp4
+## Install Carla
+
+See the website [Carla](https://github.com/carla-simulator/carla)
+
+## Install ROS-bridge with our configurations in Town04
+
+```bash
+mkdir -p ~/ros-bridge/src
+cd ~/ros-bridge/src
+git clone https://github.com/bearswang/ros-bridge.git
+cd .. && catkin_make
+```
 
 ## Start Carla server
 ```bash
@@ -38,7 +52,7 @@ cd $CARLA_ROS_BRIDGE
 source devel/setup.bash
 roslaunch carla_ros_bridge run_car_sim_Town04.launch 
 ```
-CARLA_ROS_BRIDGE is the root folder for [Carla-ROS-Bridge](https://github.com/carla-simulator/ros-bridge)
+CARLA_ROS_BRIDGE is the root folder for [Carla-ROS-Bridge](https://github.com/bearswang/ros-bridge)
 
 ## Run MPC algorithm 
 ```bash
