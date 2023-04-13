@@ -44,7 +44,7 @@ cd .. && catkin_make
 cd $CARLA_ROOT
 ./CarlaUE4.sh
 ```
-CARLA_ROOT is the root folder for [Carla](https://github.com/carla-simulator/carla)
+CARLA_ROOT is the root folder for [Carla](https://github.com/carla-simulator/carla) 
 
 ## Spawn agents and start CARLA-ROS-Bridge
 ```bash
@@ -52,7 +52,7 @@ cd $CARLA_ROS_BRIDGE
 source devel/setup.bash
 roslaunch carla_ros_bridge run_car_sim_Town04.launch 
 ```
-CARLA_ROS_BRIDGE is the root folder for [Carla-ROS-Bridge](https://github.com/bearswang/ros-bridge)
+CARLA_ROS_BRIDGE is the root folder for [Carla-ROS-Bridge](https://github.com/bearswang/ros-bridge) (Our forked version)
 
 ## Run MPC algorithm 
 ```bash
