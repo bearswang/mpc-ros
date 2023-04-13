@@ -52,7 +52,7 @@ cd $CARLA_ROS_BRIDGE
 source devel/setup.bash
 roslaunch carla_ros_bridge run_car_sim_Town04.launch 
 ```
-CARLA_ROS_BRIDGE is the root folder for [Carla-ROS-Bridge](https://github.com/bearswang/ros-bridge) (Our forked version)
+CARLA_ROS_BRIDGE is the root folder for [Carla-ROS-Bridge](https://github.com/bearswang/ros-bridge) (our forked version)
 
 ## Run MPC algorithm 
 ```bash
