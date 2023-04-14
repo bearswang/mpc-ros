@@ -11,7 +11,7 @@ cd .. && catkin_make
 ```
 
 
-## Example: Carla-ROS-MPC
+## Example: MPC-ROS in Carla Simulation
 
 Use the MPC algorithm to navigate an autonomous vehicle in the Carla Town04 map
 
