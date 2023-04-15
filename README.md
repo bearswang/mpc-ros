@@ -22,6 +22,7 @@ https://user-images.githubusercontent.com/107024891/231101881-44654b2d-cf1e-4530
 
 - Ubuntu 20.04
 - Python 3.8
+- ROS Noetic
 - CARLA 0.9.13
 - Carla-ROS-Bridge
 - CUDA 11.3 (Nvidia Driver 470)
