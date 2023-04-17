@@ -21,17 +21,17 @@ https://user-images.githubusercontent.com/107024891/231101881-44654b2d-cf1e-4530
 ### 1. Test Environment
 
 - Ubuntu 20.04
+- CUDA 11.3 (Nvidia Driver 470)
 - Python 3.8
 - ROS Noetic
 - CARLA 0.9.13
 - Carla-ROS-Bridge
-- CUDA 11.3 (Nvidia Driver 470)
 
 ### 2. Install Carla
 
 See the website [Carla](https://github.com/carla-simulator/carla)
 
-### 3. Install ROS-bridge with our configurations in Town04
+### 3. Install Carla-ROS-bridge with our configurations in Town04
 
 ```bash
 mkdir -p ~/ros-bridge/src
@@ -47,7 +47,7 @@ cd $CARLA_ROOT
 ```
 CARLA_ROOT is the root folder for [Carla](https://github.com/carla-simulator/carla) 
 
-### 5. Spawn agents and start CARLA-ROS-Bridge
+### 5. Spawn agents and launch Carla-ROS-Bridge
 ```bash
 cd $CARLA_ROS_BRIDGE
 source devel/setup.bash
