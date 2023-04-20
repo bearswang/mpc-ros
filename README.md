@@ -72,6 +72,18 @@ roslaunch mpc_ros mpc_Town04.launch
 
 MPC-ROS can reproduce the experimental results in the following paper:
 
+```
+@ARTICLE{10036019,
+  author={Han, Ruihua and Wang, Shuai and Wang, Shuaijun and Zhang, Zeqing and Zhang, Qianru and Eldar, Yonina C. and Hao, Qi and Pan, Jia},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={RDA: An Accelerated Collision Free Motion Planner for Autonomous Navigation in Cluttered Environments}, 
+  year={2023},
+  volume={8},
+  number={3},
+  pages={1715-1722},
+  publisher={IEEE}
+```
+
 ```tex
 @article{CarlaMPC,
   title={Collision Avoidance Predictive Motion Planning Based on Integrated Perception and V2V Communication},
