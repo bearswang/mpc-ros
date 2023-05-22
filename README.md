@@ -99,7 +99,7 @@ MPC-ROS can reproduce the experimental results in the following paper:
 
 
 ## Acknowledgement
-
+* This repo was supported by the Open Research Fund from Guangdong Laboratory of Artificial Intelligence and Digital Economy (Shenzhen) under Grant GML-KF-22-17.
 * [Carla](https://github.com/carla-simulator/carla)
 * [Carla-ROS-Bridge](https://github.com/carla-simulator/ros-bridge)
 * [RDA](https://github.com/hanruihua/RDA_planner)
