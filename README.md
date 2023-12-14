@@ -110,6 +110,6 @@ MPC-ROS can reproduce the experimental results in the following paper:
 
 [Shuai Wang](https://github.com/bearswang)
 
-[Guoliang Li](https://github.com/ReusLI1998)
+[Guoliang Li](https://github.com/GuoliangLI1998)
 
 
